@@ -86,10 +86,6 @@
     // Set download link and note
     const a = document.getElementById('downloadLink');
     a.href = file;
-    // Nice default filename if none present in URL
-    const fname = file.split('/').pop() || 'CV.pdf';
-    a.setAttribute('download', fname);
-    document.getElementById('fileNote').textContent = fname;
   </script>
 </body>
 </html>
