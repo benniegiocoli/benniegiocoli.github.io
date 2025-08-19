@@ -3,8 +3,18 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Benedetta (Bennie) Giocoli — Academic Website</title>
-  <meta name="description" content="Benedetta (Bennie) Giocoli" />
+
+  <!-- Updated, more descriptive title -->
+  <title>Benedetta (Bennie) Giocoli | University of Oxford — Political Behaviour & Quantitative Methods</title>
+
+  <!-- Enriched meta description for better snippets -->
+  <meta name="description" content="Personal website of Benedetta (Bennie) Giocoli, DPhil (PhD) student in Politics at the University of Oxford (Nuffield College). Research: political behaviour, political socialization/socialisation, attitude formation, comparative politics, quantitative methods, causal inference." />
+
+  <!-- Explicit indexing signal -->
+  <meta name="robots" content="index,follow" />
+
+  <!-- Canonical to avoid duplicate URL variants -->
+  <link rel="canonical" href="https://benniegiocoli.github.io/" />
 
   <!-- Favicon (inline SVG) -->
   <link rel="icon" href='data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><rect width="100" height="100" rx="20" fill="%230f7d6e"/><text x="50" y="62" font-size="54" text-anchor="middle" fill="white" font-family="Arial, Helvetica, sans-serif">BG</text></svg>' />
@@ -12,6 +22,18 @@
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Social preview (Open Graph + Twitter) -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://benniegiocoli.github.io/" />
+  <meta property="og:title" content="Benedetta (Bennie) Giocoli | University of Oxford" />
+  <meta property="og:description" content="DPhil (PhD) student in Politics at Oxford. Political behaviour, socialization, attitude formation, comparative politics, quantitative/causal methods." />
+  <meta property="og:image" content="https://benniegiocoli.github.io/assets/headshot.png" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Benedetta (Bennie) Giocoli | University of Oxford" />
+  <meta name="twitter:description" content="Political behaviour & quantitative methods. Nuffield College, University of Oxford." />
+  <meta name="twitter:image" content="https://benniegiocoli.github.io/assets/headshot.png" />
 
   <style>
     :root{
@@ -183,6 +205,7 @@
         Welcome! I am a first-year DPhil (PhD) student in Politics at Nuffield College, University of Oxford. 
         My research explores political behaviour in advanced industrial democracies, with a particular focus on the formation of attitudes and preferences. 
         I usually work with panel data using causal inference methods.
+      </p>
       <p>
         Before starting my PhD, I obtained an MPhil from Lincoln College, University of Oxford, and a BSc from University College London. 
       </p>
@@ -196,24 +219,28 @@
     </div>
   </footer>
 
-  <!-- JSON-LD for richer search/preview -->
+  <!-- JSON-LD for richer search/preview (updated & corrected) -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "Person",
     "name": "Benedetta Giocoli",
     "alternateName": "Bennie Giocoli",
+    "url": "https://benniegiocoli.github.io/",
+    "image": "https://benniegiocoli.github.io/assets/headshot.png",
+    "email": "mailto:benedetta.giocoli@nuffield.ox.ac.uk",
     "affiliation": {
       "@type": "CollegeOrUniversity",
       "name": "University of Oxford",
-      "department": "Department of Politics and International Relations, DPIR, Nuffield College"
+      "department": "Department of Politics and International Relations (DPIR)",
+      "memberOf": "Nuffield College"
     },
-    "knowsAbout": ["Political science", "Politics", "Political socialization", "Political socialisation", "Political behaviour", "Attitude formation", "Comparative politics", "Quantitative methods", "Causal inference"],
+    "knowsAbout": ["Political science", "Politics", "Political socialization", "Political socialisation", "Political behaviour", "Attitude formation", "Comparative politics", "Quantitative methods", "Causal inference", "Panel data"],
     "sameAs": [
-      "https://github.com/bennie-giocoli",
-      "linkedin.com/in/benedetta-giocoli-43b9a11a5",  
-      "https://bsky.app/profile/benniegiocoli.bsky.social",           
-      "https://www.politics.ox.ac.uk/person/benedetta-giocoli"       
+      "https://github.com/benniegiocoli",
+      "https://www.linkedin.com/in/benedetta-giocoli-43b9a11a5",
+      "https://bsky.app/profile/benniegiocoli.bsky.social",
+      "https://www.politics.ox.ac.uk/person/benedetta-giocoli"
     ]
   }
   </script>
