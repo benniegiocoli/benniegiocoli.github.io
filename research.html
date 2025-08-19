@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Research — Benedetta (Bennie) Giocoli</title>
+  <meta name="description" content="Research — Benedetta (Bennie) Giocoli" />
+  <link rel="icon" href='data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><rect width="100" height="100" rx="20" fill="%230f7d6e"/><text x="50" y="62" font-size="54" text-anchor="middle" fill="white" font-family="Arial, Helvetica, sans-serif">BG</text></svg>' />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root{ --brand:#2F9E94; --text:#0b1413; --muted:#4b5b59; --border:#e6eeec; --bg:#f7fbfa; }
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{margin:0;font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Arial,Helvetica,sans-serif;background:var(--bg);color:var(--text)}
+
+    header{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.9);backdrop-filter:blur(8px);border-bottom:1px solid var(--border)}
+    .container{max-width:1000px;margin:0 auto;padding:0 20px}
+    .nav{display:flex;align-items:center;justify-content:space-between;height:64px}
+    .brand{display:flex;align-items:center;gap:12px;font-weight:700;color:var(--brand);text-decoration:none}
+    .brand .dot{width:12px;height:12px;border-radius:50%;background:var(--brand)}
+    nav ul{display:flex;gap:18px;list-style:none;margin:0;padding:0}
+    nav a{font-weight:400;color:var(--text);padding:8px 10px;border-radius:10px;text-decoration:none}
+    nav a:hover, nav a[aria-current="page"]{background:#e9f5f2}
+
+    /* Page title matches About/CV */
+    .page-head{padding:24px 0 8px}
+    .page-head h1{margin:0;font-size:20px;color:var(--brand);font-weight:600}
+
+    /* Subsection headings */
+    .subheading{margin:24px 0 8px;font-size:18px;color:var(--brand);font-weight:400}
+    .section{margin-bottom:28px;border-top:1px solid var(--border);padding-top:16px}
+
+    /* Content list placeholder */
+    .paper-list{display:grid;gap:14px;margin:0;padding:0;list-style:none}
+    .paper{padding:12px 14px;border:1px solid var(--border);border-radius:12px;background:#fff}
+    .paper .title{font-weight:600}
+    .paper .meta{color:var(--muted);font-size:14px}
+
+    @media (max-width:780px){ nav ul{display:none} }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container nav" role="navigation" aria-label="Primary">
+      <a class="brand" href="index.html" aria-label="Benedetta Giocoli - Home">
+        <span class="dot" aria-hidden="true"></span>
+        <span>Benedetta Giocoli</span>
+      </a>
+      <nav id="menu">
+        <ul>
+          <li><a href="cv.html">CV</a></li>
+          <li><a href="research.html" aria-current="page">Research</a></li>
+          <li><a href="teaching.html">Teaching</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <div class="page-head">
+      <h1>Research</h1>
+    </div>
+
+    <!-- Working Papers -->
+    <section class="section" aria-labelledby="wp-title">
+      <h2 id="wp-title" class="subheading">Working papers</h2>
+      <ul class="paper-list">
+        <!-- Example (remove when adding your own):
+        <li class="paper">
+          <div class="title">Parental Partisanship and Adult Identity Formation</div>
+          <div class="meta">with A. Coauthor — 2025 — Under review</div>
+          <div class="desc">Short abstract or one-line blurb goes here.</div>
+        </li>
+        -->
+      </ul>
+    </section>
+
+    <!-- Work in Progress -->
+    <section class="section" aria-labelledby="wip-title">
+      <h2 id="wip-title" class="subheading">Work in progress</h2>
+      <ul class="paper-list">
+        <!-- Add items like above. Suggested fields: title, coauthors, status, short blurb. -->
+      </ul>
+    </section>
+  </main>
+
+  <script>
+    // No JS required yet; this is a static page scaffold.
+  </script>
+</body>
+</html>
