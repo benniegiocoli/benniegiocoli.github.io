@@ -65,12 +65,15 @@
 
     /* Avatar – adjusted to avoid cropping and remove borders */
     .avatar-wrap {
-      position: relative;
-      width: 140px;
-      height: 140px;
-      border-radius: 50%;
-      overflow: hidden; /* ensures the image is clipped to a circle */
-      background: transparent;
+      --face-y: 32%;              /* try 28–40% depending on your photo */
+      width: 100%;
+      height: 100%;
+      display: block;
+      object-fit: cover;          /* fill circle without distortion */
+      object-position: 50% var(--face-y); /* shift focus toward top */
+      border: 0;
+      border-radius: 0;           /* wrapper handles the circle */
+      box-shadow: none;
     }
 
     .avatar {
