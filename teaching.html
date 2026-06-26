@@ -36,6 +36,12 @@
     .entry .meta{color:var(--brand);font-size:14px;font-style:italic}
     .entry .desc{font-size:14px;color:var(--text)}
 
+    /* Student feedback quotes */
+    .feedback{margin-top:12px;padding-top:10px;border-top:1px dashed var(--border)}
+    .feedback .feedback-label{font-size:12px;letter-spacing:.04em;text-transform:uppercase;color:var(--muted);margin-bottom:6px}
+    .feedback blockquote{margin:0 0 8px;padding-left:12px;border-left:3px solid var(--brand);font-size:14px;font-style:italic;color:var(--text);line-height:1.55}
+    .feedback blockquote:last-child{margin-bottom:0}
+
     @media (max-width:780px){
       nav ul{display:none}
       nav ul.open{display:flex;flex-direction:column;position:absolute;right:20px;top:64px;background:#fff;border:1px solid var(--border);border-radius:12px;padding:10px;box-shadow:0 8px 24px rgba(0,0,0,.1)}
@@ -84,11 +90,20 @@
           <div class="title">Causal Inference (PG)</div>
           <div class="meta">Hilary 2026, University of Oxford</div>
           <div class="desc">Lab sessions in R. Topics covered include the potential outcomes framework, experiments, matching, instrumental variables, difference-in-differences, synthetic control, and regression discontinuity. </div>
+          <div class="feedback">
+            <div class="feedback-label">Student feedback</div>
+            <blockquote>Benedetta is an incredible teacher and through her classes I have gained a lot of confidence on my own use of quantitative methods for causal inference.</blockquote>
+            <blockquote>Bennie is great at explaining the content and helping us with any questions we might have.</blockquote>
+          </div>
         </li>
         <li class="entry">
           <div class="title">Intermediate Statistics (PG)</div>
           <div class="meta">Michaelmas 2025, University of Oxford</div>
           <div class="desc">Lab sessions in R. Topics covered include OLS, maximum likelihood, binary and ordinal models, multinomial and count models, basic techniques in machine learning, regularization, regression trees and random forests. </div>
+          <div class="feedback">
+            <div class="feedback-label">Student feedback</div>
+            <blockquote>Benedetta provided great detail on R code used in seminars, always trying her best to make sure we understand everything. Whenever something was unclear she would go back and explain.</blockquote>
+          </div>
         </li>
       </ul>
     </section>
